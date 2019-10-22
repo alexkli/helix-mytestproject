@@ -9,6 +9,7 @@ definitions:
 
 strains:
   - name: default
-    code: *defaultRepo
-    content: *defaultRepo
-    static: *defaultRepo
+    code: ssh://git@github.com/alexkli/helix-mytestproject.git#master
+    content: ssh://git@github.com/alexkli/helix-mytestproject.git#master
+    static: ssh://git@github.com/alexkli/helix-mytestproject.git/htdocs#master
+    package: aklimets/e5aa7f3aa908a2bba39b16de1a5a22f037cf179c
